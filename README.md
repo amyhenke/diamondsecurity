@@ -1,4 +1,4 @@
-# Accountant Website Project
+# Security Website Project
 
 ## Built with [Astro](https://astro.build/)
 
