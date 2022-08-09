@@ -1,15 +1,13 @@
-/* abril-fatface-regular - latin */
+/* jura-regular - latin */
 @font-face {
-    font-family: "Abril Fatface";
+    font-family: "Jura";
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/abril-fatface-v19-latin-regular.eot"); /* IE9 Compat Modes */
+    src: url("../fonts/jura-v24-latin-regular.eot"); /* IE9 Compat Modes */
     src: local(""),
-        // url("../fonts/abril-fatface-v19-latin-regular.woff2") format("woff2"),
-        // /* Super Modern Browsers */
-        //     url("../fonts/abril-fatface-v19-latin-regular.woff") format("woff"),
-        /* Modern Browsers */ url("../fonts/AbrilFatface-Regular.ttf")
-            format("truetype"); /* Safari, Android, iOS */
+        //  url('../fonts/jura-v24-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        //  url('../fonts/jura-v24-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url("../fonts/Jura-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
     font-display: swap;
 }
 
