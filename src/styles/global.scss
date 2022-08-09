@@ -51,7 +51,6 @@ h6 {
 
 p {
     letter-spacing: 0.5px;
-    opacity: 0.8;
     margin-bottom: 10px;
 }
 
@@ -174,9 +173,33 @@ header {
     }
 }
 
+#credentials {
+    img {
+        height: 100px;
+        margin: 0 10px;
+    }
+}
+
 #back-to-top {
     &:hover {
         color: var(--blue);
+    }
+}
+
+footer {
+    small {
+        a {
+            &.tel {
+                margin-right: 10px;
+            }
+            .blue {
+                color: var(--blue);
+                font-weight: bold;
+            }
+            &:hover {
+                color: var(--blue);
+            }
+        }
     }
 }
 
