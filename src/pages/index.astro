@@ -1,71 +1,119 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from "../components/Card.astro";
+import Layout from "../layouts/Layout.astro"
+import Card from "../components/Card.astro"
 
 const seo = {
-	title: "24/7 Diamond K9 Security",
-	description: "Bespoke security services using Security Industry Authority (SIA) licensed personnel and National Association of Security Dog Users (NASDU) trained patrol dogs for construction sites, festivals, railways and abandoned buildings.",
-	image: "../socialbanner.png",
-	canonicalURL: "https://diamondsecurity.netlify.app/"
+    title: "24/7 Diamond K9 Security",
+    description:
+        "Bespoke security services using Security Industry Authority (SIA) licensed personnel and National Association of Security Dog Users (NASDU) trained patrol dogs for construction sites, festivals, railways and abandoned buildings.",
+    image: "../socialbanner.png",
+    canonicalURL: "https://diamondsecurity.netlify.app/",
 }
-
 ---
 
 <Layout {seo}>
-	<section class="hero max-w-screen-lg mx-auto min-h-screen flex justify-center align-center flex-col text-black p-5"
-		data-perspective-group>
-		<h1 class="text-7xl mb-2" data-perspective="header">24/7 Diamond K9 Security</h1>
-		<h2 class="text-xl">Sleep easy knowing we have you covered.</h2>
-		<div class="videocontainer self-end pt-10" data-perspective="image">
-			<video autoplay loop muted src="/dog.mp4"></video>
-		</div>
-	</section>
+    <section
+        class="hero max-w-screen-lg mx-auto min-h-screen flex justify-center align-center flex-col text-black p-5"
+        data-perspective-group
+    >
+        <h1 class="text-7xl mb-2" data-perspective="header">
+            24/7 Diamond K9 Security
+        </h1>
+        <h2 class="text-xl">Sleep easy knowing we have you covered.</h2>
+        <div class="videocontainer self-end pt-10" data-perspective="image">
+            <video autoplay loop muted src="/dog.mp4"></video>
+        </div>
+    </section>
 
-	<section id="about"
-		class="max-w-screen-lg mx-auto flex justify-center align-center flex-col text-black p-5 pt-20 text-center">
-		<h2 class="text-3xl sm:text-5xl mb-8 text-black">Security by trained personnel and canines.</h2>
-		<p class="mb-2.5">Our guards are SIA Accredited and highly trained. We deliver a full range of guarding roles
-			including static manned guarding, stewarding and crowd control, guarding patrols, dog patrols, keyholding
-			services and more. On site security teams provide 24/7 cover, ensuring you are never left exposed to
-			security threats.</p>
-		<p class="mb-2.5">Security dogs add another dimension to your perimeter security systems and practices, offering
-			a much more visible element to your security detail and therefore a greater deterrent to any criminals.
-		</p>
-		<p class="mb-2.5">Having a highly trained security dog is an efficient and cost-effective way of providing
-			enhanced security solutions in a range of different scenarios. Security guards and their dogs can be
-			employed for a one-off event or for a longer-term solution, and are experienced in working with both large
-			and small businesses.
-		</p>
-	</section>
+    <section
+        id="about"
+        class="max-w-screen-lg mx-auto flex justify-center align-center flex-col text-black p-5 pt-20 text-center"
+    >
+        <h2 class="text-3xl sm:text-5xl mb-8 text-black">
+            Security by trained personnel and canines.
+        </h2>
+        <p class="mb-2.5">
+            Our guards are SIA Accredited and highly trained. We deliver a full
+            range of guarding roles including static manned guarding, stewarding
+            and crowd control, guarding patrols, dog patrols, keyholding
+            services and more. On site security teams provide 24/7 cover,
+            ensuring you are never left exposed to security threats.
+        </p>
+        <p class="mb-2.5">
+            Security dogs add another dimension to your perimeter security
+            systems and practices, offering a much more visible element to your
+            security detail and therefore a greater deterrent to any criminals.
+        </p>
+        <p class="mb-2.5">
+            Having a highly trained security dog is an efficient and
+            cost-effective way of providing enhanced security solutions in a
+            range of different scenarios. Security guards and their dogs can be
+            employed for a one-off event or for a longer-term solution, and are
+            experienced in working with both large and small businesses.
+        </p>
+    </section>
 
-	<section id="services" class="max-w-screen-xl mx-auto p-5 pt-20">
-		<h2 class="text-3xl sm:text-5xl mb-8 text-black text-center">Services we provide</h2>
-		<ul role="list" class="link-card-grid">
-			<Card title="Contruction Sites" icon="fa-solid fa-person-digging"
-				body="Construction sites are often targeted due to the high-value nature of construction equipment. Our security teams can tightly control access to the sites while deterring unwanted access with K9 patrol units and 24/7 monitoring." />
-			<Card title="Factories and Warehouses" icon="fa-solid fa-warehouse"
-				body="Factories, warehouses and other industrial areas represent a security challenge due to their size and nature.  High-value equipment can be targeted by thieves or damaged without security protection." />
-			<Card title="Railways" icon="fa-solid fa-train-subway"
-				body="Security presence at railways protects workers and the public from entering unauthorised and dangerous environments." />
-			<Card title="Festivals" icon="fa-solid fa-tent"
-				body="Our K9 dogs can be deployed for special events and festivals to deter any criminal activity from taking place." />
-			<Card title="Abandoned Buildings" icon="fa-solid fa-building-circle-xmark"
-				body="Left unattended, vacant commercial and residential properties can fall prey to theft, vandalism, weather damage and illegal occupation." />
-			<Card title="Bespoke Canine Security" icon="fa-solid fa-handshake-simple"
-				body="Looking for something specific to you and your business’ needs? Simply get in touch and let us know how our SIA licensed security and NASDU dogs can be of assistance to you." />
-		</ul>
-	</section>
+    <section id="services" class="max-w-screen-xl mx-auto p-5 pt-20">
+        <h2 class="text-3xl sm:text-5xl mb-8 text-black text-center">
+            Services we provide
+        </h2>
+        <ul role="list" class="link-card-grid">
+            <Card
+                title="Contruction Sites"
+                icon="fa-solid fa-person-digging"
+                body="Construction sites are often targeted due to the high-value nature of construction equipment. Our security teams can tightly control access to the sites while deterring unwanted access with K9 patrol units and 24/7 monitoring."
+            />
+            <Card
+                title="Factories and Warehouses"
+                icon="fa-solid fa-warehouse"
+                body="Factories, warehouses and other industrial areas represent a security challenge due to their size and nature.  High-value equipment can be targeted by thieves or damaged without security protection."
+            />
+            <Card
+                title="Railways"
+                icon="fa-solid fa-train-subway"
+                body="Security presence at railways protects workers and the public from entering unauthorised and dangerous environments."
+            />
+            <Card
+                title="Festivals"
+                icon="fa-solid fa-tent"
+                body="Our K9 dogs can be deployed for special events and festivals to deter any criminal activity from taking place."
+            />
+            <Card
+                title="Abandoned Buildings"
+                icon="fa-solid fa-building-circle-xmark"
+                body="Left unattended, vacant commercial and residential properties can fall prey to theft, vandalism, weather damage and illegal occupation."
+            />
+            <Card
+                title="Bespoke Canine Security"
+                icon="fa-solid fa-handshake-simple"
+                body="Looking for something specific to you and your business’ needs? Simply get in touch and let us know how our SIA licensed security and NASDU dogs can be of assistance to you."
+            />
+        </ul>
+    </section>
 
-	<section id="contact" class="max-w-screen-lg mx-auto text-black p-5 pt-20 mb-20 text-center">
-		<h2 class="text-3xl sm:text-5xl mb-8 text-black">Get in Touch</h2>
-		<p class="mb-6">Our friendly staff will be happy to assist you with any queries you may have.</p>
-		<a class="button" href="mailto:247diamondk9@gmail.com" tabindex="0">Contact</a>
-	</section>
+    <section
+        id="contact"
+        class="max-w-screen-lg mx-auto text-black p-5 pt-20 mb-20 text-center"
+    >
+        <h2 class="text-3xl sm:text-5xl mb-8 text-black">Get in Touch</h2>
+        <p class="mb-6">
+            Our friendly staff will be happy to assist you with any queries you
+            may have.
+        </p>
+        <a class="button" href="/contact" tabindex="0">Contact</a>
+        <!-- href="mailto:247diamondk9@gmail.com" -->
+    </section>
 
-	<section id="credentials" class="max-w-screen-lg mx-auto text-black p-5 text-center flex justify-center flex-wrap">
-		<img src="../nasdu.png" alt="NASDU Security Dogs" />
-		<img src="../sia.png" alt="SIA Licenced" />
-		<img src="../bipdt.png" alt="British Institute of Professional Dog Trainers" />
-		<img src="../highfield.png" alt="Highfield Qualifications" />
-	</section>
+    <section
+        id="credentials"
+        class="max-w-screen-lg mx-auto text-black p-5 text-center flex justify-center flex-wrap"
+    >
+        <img src="../nasdu.png" alt="NASDU Security Dogs" />
+        <img src="../sia.png" alt="SIA Licenced" />
+        <img
+            src="../bipdt.png"
+            alt="British Institute of Professional Dog Trainers"
+        />
+        <img src="../highfield.png" alt="Highfield Qualifications" />
+    </section>
 </Layout>

@@ -164,6 +164,18 @@ header {
     }
 }
 
+.contactpage {
+    .button {
+        background-color: var(--blue);
+        color: var(--white);
+        &:hover,
+        &:focus {
+            background-color: var(--white);
+            color: var(--blue);
+        }
+    }
+}
+
 #services {
     .link-card-grid {
         display: grid;
